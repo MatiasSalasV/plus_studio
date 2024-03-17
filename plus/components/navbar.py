@@ -8,7 +8,7 @@ def navbar() -> rx.Component:
 
         rx.link(
             rx.heading(
-                "++ Plus Studio",
+                "+Plus Studio",
                 text_shadow="0px 1px 10px rgba(0,0,0,0.2)",
             ),
             href="/",
