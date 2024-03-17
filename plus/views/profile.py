@@ -26,6 +26,7 @@ def profile(details=True) -> rx.Component:
                     "@plus__studio", 
                     color_scheme="cyan",
                     margin_top="0px !important",
+                    href="https://www.instagram.com/plus__studio/",
                     is_external=True,
                 ),
                 rx.hstack(

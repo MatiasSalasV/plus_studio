@@ -13,7 +13,6 @@ import plus.styles.styles as styles
     # route="/",
     title=utils.index_title,
     description=utils.index_description,
-    image="/x.ico",
     meta=utils.index_meta,
 )
 def index() -> rx.Component:
