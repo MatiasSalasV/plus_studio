@@ -61,11 +61,11 @@ def profile(details=True) -> rx.Component:
                     ),
                     rx.spacer(),
                     info_text(
-                        "100+", "producciones hechas"
+                        "10.000+", "reproducciones"
                     ),
                     rx.spacer(),
                     info_text(
-                        "60+", "seguidores"
+                        "10+", "estilos trabajados"
                     ),
                     width="100%"
                 ),
@@ -94,4 +94,4 @@ def profile(details=True) -> rx.Component:
 
 
 def experience() -> int:
-    return datetime.date.today().year - 2015
+    return datetime.date.today().year - 2018
