@@ -9,7 +9,7 @@ def copyright() -> rx.Component:
         ),
         rx.link(
                 "aquí.",
-                href="https://personal-website-phi-topaz.vercel.app/",
+                href="https://matiassalas.vercel.app/",
                 is_external=True,
                 as_="span"
             ),
