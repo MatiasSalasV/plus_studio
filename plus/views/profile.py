@@ -8,12 +8,9 @@ def profile(details=True) -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                # src="/logo.jpg", 
+                src="/logo_blanco.png",
                 fallback="RX", 
                 size="8",
-                padding = "2px",
-                border="4px",
-                border_color="#2ECCFA",
                 box_shadow="0px 1px 10px #00a2c7",
             ),
    
@@ -41,9 +38,13 @@ def profile(details=True) -> rx.Component:
                         "WhatsApp"
                     ),
                     link_icon(
-                        "icons/tt.svg",
-                        "https://x.com",
-                        "YouTube"
+                        "icons/mail.svg",
+                        """
+                            mailto:matias.salas.vergara@gmail.com?subject=Consulta Plus Studio&body=Hola,
+                            estoy interesado/a en tus servicios de producción musical y me gustaría recibir más información al respecto. 
+                            ¿Podrías enviarme detalles sobre sus servicios, disponibilidad y precios?
+                        """,
+                        "Email"
                     ),
                     spacing="1"
                 ),

@@ -14,12 +14,12 @@ def servicios() -> rx.Component:
         rx.chakra.responsive_grid(
             card_servicio(
                 "Grabación de voz",
-                "Sesión de estudio de 2H donde gracias a nuestros equipos y estudio insonorizado podrás grabar.",
+                "Sesión de estudio de 2H donde gracias a nuestros equipos y estudio insonorizado podrás grabar tus vocales.",
                 "mic",
                 "https://calendly.com/plus_studio/grabacion-de-voz?hide_gdpr_banner=1"
             ),
             card_servicio(
-                "Trabajo de vocales",
+                "Vocal + master",
                 "Afinación y mezcla de vocales ya grabadas. Finalizando con la mastetizacion completa de tu canción.",
                 "audio-lines",
                 "https://calendly.com/plus_studio/tratamiento-vocal?hide_gdpr_banner=1"

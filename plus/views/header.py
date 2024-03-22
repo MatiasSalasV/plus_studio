@@ -31,6 +31,7 @@ def header() -> rx.Component:
                 size="4",
                 text_shadow="0px 1px 10px rgba(46, 204, 250, 0.5)",
             ),
+            
             padding_x=styles.EMSize.DEFAULT.value,
             padding_y=styles.EMSize.SMALL.value,
            
