@@ -40,7 +40,7 @@ def profile(details=True) -> rx.Component:
                     link_icon(
                         "icons/mail.svg",
                         """
-                            mailto:matias.salas.vergara@gmail.com?subject=Consulta Plus Studio&body=Hola,
+                            mailto:plusstudio.wav@gmail.com?subject=Consulta Plus Studio&body=Hola,
                             estoy interesado/a en tus servicios de producción musical y me gustaría recibir más información al respecto. 
                             ¿Podrías enviarme detalles sobre sus servicios, disponibilidad y precios?
                         """,

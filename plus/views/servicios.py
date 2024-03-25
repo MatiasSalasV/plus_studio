@@ -19,7 +19,7 @@ def servicios() -> rx.Component:
                 "https://calendly.com/plus_studio/grabacion-de-voz?hide_gdpr_banner=1"
             ),
             card_servicio(
-                "Vocal + master",
+                "Mezcla + Máster",
                 "Afinación y mezcla de vocales ya grabadas. Finalizando con la mastetizacion completa de tu canción.",
                 "audio-lines",
                 "https://calendly.com/plus_studio/tratamiento-vocal?hide_gdpr_banner=1"
